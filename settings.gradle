@@ -1,0 +1,6 @@
+rootProject.name = 'theone'
+include 'sample-thetwo'
+findProject(':sample-thetwo')?.name = 'thetwo'
+include 'sample-thethree'
+findProject(':sample-thethree')?.name = 'thethree'
+
